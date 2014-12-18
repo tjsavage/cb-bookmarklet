@@ -1,1 +1,24 @@
-<a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='//tjsavage.github.io/cb-bookmarklet/cb-bookmarklet.js';})();">Externalized Bookmarklet</a>
+<html>
+    <head>
+        <link rel="import" href="//www.polymer-project.org/components/paper-button/paper-button.html">
+    </head>
+    <body>
+        <div layout vertical center-justified>
+            <span>
+                <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='//tjsavage.github.io/cb-bookmarklet/cb-bookmarklet.js';})();">
+                    <paper-button raised role="button" style="background: #4285f4; color: #fff;">
+                    Bookmarklet
+                    </paper-button>
+                </a>
+            </span>
+            <ol>
+                <li>Right click the "Bookmarklet" button.</li>
+                <li>Click "Copy Link Address"</li>
+                <li>Navigate to chrome://bookmarks or press cmd-opt-b</li>
+                <li>Add a bookmark with the link you've copied.</li>
+                <li>Clicking the bookmarklet while on CB to activate it - it will open a dialog with the scraped data.</li>
+            </ol>
+        </div>
+    </body>
+</html>
+
