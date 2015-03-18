@@ -9,7 +9,7 @@ getScript('https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js', functi
 function prepDocumentForPolymer(callback) {
     var link = document.createElement('link');
     link.setAttribute('rel', 'import');
-    link.setAttribute('href', '//www.polymer-project.org/components/polymer/polymer.html');
+    link.setAttribute('href', '//www.polymer-project.org/0.5/components/polymer/polymer.html');
     link.onload = callback;
     document.head.appendChild(link);
 }
